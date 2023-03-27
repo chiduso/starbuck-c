@@ -33,13 +33,19 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'SoDo Sans';
+  src: local('SoDo Sans Regular'), local('SoDo-Sans-Regular'),
+        url('SoDoSans-Regular.woff2') format('woff2'),
+        url('SoDoSans-Regular.woff') format('woff'),
+        url('SoDoSans-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 };
+
 
 /* footer div ul li a {
   color: #6b6b79 !important;
